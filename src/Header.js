@@ -22,7 +22,7 @@ class Header extends Component {
                 <Navbar style={{border:'0px'}}>
                     <Navbar.Header>
                         <Navbar.Brand>
-
+                            Menu
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
