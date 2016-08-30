@@ -52,13 +52,13 @@ class Header extends Component {
                         </Nav>
                         <Nav pullRight>
                             <NavDropdown eventKey={3} title="(5) items in Cart" id="basic-nav-dropdown">
-                                <MenuItem eventKey={3.1}>Item1</MenuItem>
-                                <MenuItem eventKey={3.2}>Item2</MenuItem>
-                                <MenuItem eventKey={3.2}>Item3</MenuItem>
-                                <MenuItem eventKey={3.2}>Item4</MenuItem>
-                                <MenuItem eventKey={3.2}>Item5</MenuItem>
+                                <MenuItem>Item1</MenuItem>
+                                <MenuItem>Item2</MenuItem>
+                                <MenuItem>Item3</MenuItem>
+                                <MenuItem>Item4</MenuItem>
+                                <MenuItem>Item5</MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={3.3}>Total Price: 0kr</MenuItem>
+                                <MenuItem>Total Price: 0kr</MenuItem>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
