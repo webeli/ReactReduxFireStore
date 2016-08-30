@@ -1,10 +1,6 @@
 import { combineReducers } from 'redux';
-import project from './projectReducer';
-import projects from './projectsReducer';
-import options from './optionReducer'
+import products from './productsReducer';
 
 export default combineReducers({
-    project,
-    projects,
-    options
+    products
 });
